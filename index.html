@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PROZA — Boutique hotel in Kutaisi</title>
+  <meta name="description" content="PROZA — Boutique hotel in Kutaisi. Modern rooms, restaurant and terrace." />
+  <link rel="icon" href="assets/img/1.jpg" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <meta property="og:title" content="PROZA — Boutique hotel in Kutaisi" />
+  <meta property="og:description" content="Modern boutique hotel in Kutaisi. Rooms, restaurant & terrace." />
+  <meta property="og:image" content="assets/img/1.jpg" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <span>PROZA</span>
+        <small data-i18n="tagline">Boutique hotel in Kutaisi</small>
+      </div>
+      <nav class="nav-links">
+        <a href="#rooms" data-i18n="nav_rooms">Rooms</a>
+        <a href="#restaurant" data-i18n="nav_rest">Restaurant</a>
+        <a href="#terrace" data-i18n="nav_terrace">Terrace</a>
+        <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+        <a href="#location" data-i18n="nav_location">Location</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="lang" aria-label="Language switcher">
+        <button type="button" data-lang="ka">GEO</button>
+        <button type="button" data-lang="en">ENG</button>
+        <button type="button" data-lang="ru">RU</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-card">
+            <img src="assets/img/1.jpg" alt="PROZA render" />
+            <div class="hero-overlay">
+              <div class="hero-title">
+                <h1>PROZA</h1>
+                <p data-i18n="tagline">Boutique hotel in Kutaisi</p>
+                <div class="hero-actions">
+                  <a class="btn primary" href="#contact" data-i18n="cta_contact">Contact</a>
+                  <a class="btn" href="#contact" data-i18n="cta_request">Booking request</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <img src="assets/img/2.jpg" alt="PROZA render 2" />
+          </div>
+        </div>
+
+        <div class="highlights">
+          <div class="hl" data-i18n="high1">Modern boutique interior</div>
+          <div class="hl" data-i18n="high2">18 rooms • 2+1 occupancy</div>
+          <div class="hl" data-i18n="high3">Restaurant & terrace</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rooms" class="section">
+      <div class="container">
+        <h2 data-i18n="rooms_title">Rooms</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="assets/img/3.jpg" alt="Standard Double" />
+            <div class="content">
+              <h3 data-i18n="room_standard">Standard Double Room</h3>
+              <p data-i18n="room_occ">2 guests • optional extra bed</p>
+              <div class="meta" data-i18n="room_price">Price: 220₾ / night • Extra bed: +50₾</div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/img/4.jpg" alt="Twin or Double" />
+            <div class="content">
+              <h3 data-i18n="room_twin">Twin or Double Room</h3>
+              <p data-i18n="room_occ">2 guests • optional extra bed</p>
+              <div class="meta" data-i18n="room_price">Price: 220₾ / night • Extra bed: +50₾</div>
+            </div>
+          </article>
+        </div>
+        <div class="note" data-i18n="rooms_note">Images are visual representations (renders). Final details may vary slightly.</div>
+      </div>
+    </section>
+
+    <section id="restaurant" class="section">
+      <div class="container">
+        <h2 data-i18n="rest_title">Restaurant</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="assets/img/63.jpg" alt="Restaurant render" />
+            <div class="content">
+              <p data-i18n="rest_text">A place for evenings, conversations, and slow time. Designed to be remembered.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/img/64.jpg" alt="Restaurant render 2" />
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="terrace" class="section">
+      <div class="container">
+        <h2 data-i18n="terrace_title">Terrace</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="assets/img/73.jpg" alt="Terrace render" />
+            <div class="content">
+              <p data-i18n="terrace_text">Open-air space — views, fresh air, and a calm atmosphere.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/img/74.jpg" alt="Terrace render 2" />
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 data-i18n="gallery_title">Gallery</h2>
+        <div class="gallery-tabs">
+          <button class="tab active" data-target="rooms" data-i18n="gallery_rooms">Rooms</button>
+          <button class="tab" data-target="baths" data-i18n="gallery_baths">Bathroom</button>
+          <button class="tab" data-target="rest" data-i18n="gallery_rest">Restaurant</button>
+          <button class="tab" data-target="terrace" data-i18n="gallery_terrace">Terrace</button>
+        </div>
+
+        <div class="grid" data-gallery="rooms" style="display:grid">
+          <button class="thumb" data-full="assets/img/1.jpg"><img loading="lazy" src="assets/img/1.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/2.jpg"><img loading="lazy" src="assets/img/2.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/3.jpg"><img loading="lazy" src="assets/img/3.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/4.jpg"><img loading="lazy" src="assets/img/4.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/5.jpg"><img loading="lazy" src="assets/img/5.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/6.jpg"><img loading="lazy" src="assets/img/6.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/7.jpg"><img loading="lazy" src="assets/img/7.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/8.jpg"><img loading="lazy" src="assets/img/8.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/9.jpg"><img loading="lazy" src="assets/img/9.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/10.jpg"><img loading="lazy" src="assets/img/10.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/11.jpg"><img loading="lazy" src="assets/img/11.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/12.jpg"><img loading="lazy" src="assets/img/12.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/13.jpg"><img loading="lazy" src="assets/img/13.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/14.jpg"><img loading="lazy" src="assets/img/14.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/15.jpg"><img loading="lazy" src="assets/img/15.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/16.jpg"><img loading="lazy" src="assets/img/16.jpg" alt=""></button>
+        </div>
+        <div class="grid" data-gallery="baths" style="display:none">
+          <button class="thumb" data-full="assets/img/wc-1-1.jpg"><img loading="lazy" src="assets/img/wc-1-1.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-1-2.jpg"><img loading="lazy" src="assets/img/wc-1-2.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-1-3.jpg"><img loading="lazy" src="assets/img/wc-1-3.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-1-4.jpg"><img loading="lazy" src="assets/img/wc-1-4.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-2-1.jpg"><img loading="lazy" src="assets/img/wc-2-1.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-2-2.jpg"><img loading="lazy" src="assets/img/wc-2-2.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-6-1.jpg"><img loading="lazy" src="assets/img/wc-6-1.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-6-2.jpg"><img loading="lazy" src="assets/img/wc-6-2.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-6-3.jpg"><img loading="lazy" src="assets/img/wc-6-3.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/wc-6-4.jpg"><img loading="lazy" src="assets/img/wc-6-4.jpg" alt=""></button>
+        </div>
+        <div class="grid" data-gallery="rest" style="display:none">
+          <button class="thumb" data-full="assets/img/63.jpg"><img loading="lazy" src="assets/img/63.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/64.jpg"><img loading="lazy" src="assets/img/64.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/65.jpg"><img loading="lazy" src="assets/img/65.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/66.jpg"><img loading="lazy" src="assets/img/66.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/67.jpg"><img loading="lazy" src="assets/img/67.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/68.jpg"><img loading="lazy" src="assets/img/68.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/69.jpg"><img loading="lazy" src="assets/img/69.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/70.jpg"><img loading="lazy" src="assets/img/70.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/71.jpg"><img loading="lazy" src="assets/img/71.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/72.jpg"><img loading="lazy" src="assets/img/72.jpg" alt=""></button>
+        </div>
+        <div class="grid" data-gallery="terrace" style="display:none">
+          <button class="thumb" data-full="assets/img/73.jpg"><img loading="lazy" src="assets/img/73.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/74.jpg"><img loading="lazy" src="assets/img/74.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/75.jpg"><img loading="lazy" src="assets/img/75.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/76.jpg"><img loading="lazy" src="assets/img/76.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/77.jpg"><img loading="lazy" src="assets/img/77.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/78.jpg"><img loading="lazy" src="assets/img/78.jpg" alt=""></button>
+<button class="thumb" data-full="assets/img/79.jpg"><img loading="lazy" src="assets/img/79.jpg" alt=""></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="section">
+      <div class="container">
+        <h2 data-i18n="location_title">Location</h2>
+        <div class="location">
+          <div class="mapbox">
+            <iframe loading="lazy"
+              src="https://www.google.com/maps?q=42.26753295533655,42.69513517166979&z=16&output=embed"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="kv">
+            <p data-i18n="location_text">Kutaisi, Georgia. Easy to reach and close to the city.</p>
+            <div class="row">
+              <a class="btn primary" target="_blank" rel="noreferrer" href="https://maps.google.com/?q=42.26753295533655,42.69513517166979" data-i18n="maps_btn">Open in Google Maps</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 data-i18n="contact_title">Contact</h2>
+        <div class="location">
+          <div class="kv">
+            <p><strong data-i18n="phone">Phone / WhatsApp</strong><br/>
+              <a href="https://wa.me/995591159933" target="_blank" rel="noreferrer">+995591159933</a>
+            </p>
+            <p><strong data-i18n="email">Email</strong><br/>
+              <a href="mailto:info@hotelproza.ge">info@hotelproza.ge</a>
+            </p>
+            <p><strong data-i18n="checkin">Check-in</strong>: 14:00<br/>
+               <strong data-i18n="checkout">Check-out</strong>: 12:00
+            </p>
+          </div>
+          <div class="kv">
+            <p><strong data-i18n="form_title">Request</strong></p>
+            <form id="requestForm" class="form">
+              <input name="name" required placeholder="Name" data-placeholder-i18n="form_name" />
+              <input name="dates" placeholder="Dates" data-placeholder-i18n="form_dates" />
+              <input name="guests" placeholder="Guests" data-placeholder-i18n="form_guests" class="full" />
+              <textarea name="message" placeholder="Message" data-placeholder-i18n="form_msg"></textarea>
+              <button class="btn primary full" type="submit" data-i18n="form_send">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer">© PROZA — ყველა უფლება დაცულია.</div>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" role="dialog" aria-label="Image preview">
+    <button class="btn primary" type="button">✕</button>
+    <img src="" alt="" />
+  </div>
+
+  <script>
+    window.TRANSLATIONS = {"ka": {"nav_rooms": "ნომრები", "nav_rest": "რესტორანი", "nav_terrace": "ტერასა", "nav_gallery": "გალერია", "nav_location": "ლოკაცია", "nav_contact": "კონტაქტი", "tagline": "ბუტიკ სასტუმრო ქუთაისში", "cta_contact": "დაგვიკავშირდი", "cta_request": "დაჯავშნის მოთხოვნა", "high1": "თანამედროვე ბუტიკ ინტერიერი", "high2": "18 ნომერი • 2+1 განთავსება", "high3": "რესტორანი და ტერასა", "rooms_title": "ნომრები", "room_standard": "Standard Double Room", "room_twin": "Twin or Double Room", "room_occ": "2 სტუმარი • შესაძლებელია 1 ექსტრა ბედი", "room_price": "ფასი: {price} / ღამე • ექსტრა ბედი: +{extra}", "rooms_note": "სურათები არის ვიზუალური რენდერები. საბოლოო დეტალები შესაძლოა ოდნავ შეიცვალოს.", "rest_title": "რესტორანი", "rest_text": "ადგილი საღამოსთვის, საუბრებისთვის და ნელი დროისთვის. დიზაინი, რომელიც დაიმახსოვრება.", "terrace_title": "ტერასა", "terrace_text": "ღია ცის ქვეშ — ხედები, ჰაერი და მშვიდი ატმოსფერო.", "gallery_title": "გალერია", "gallery_rooms": "ნომრები", "gallery_baths": "სველი წერტილი", "gallery_rest": "რესტორანი", "gallery_terrace": "ტერასა", "location_title": "ლოკაცია", "location_text": "ქუთაისი, საქართველო. მარტივი მისადგომი ადგილი ქალაქთან ახლოს.", "maps_btn": "გახსენი Google Maps-ში", "contact_title": "კონტაქტი", "phone": "ტელეფონი / WhatsApp", "email": "ელფოსტა", "checkin": "ჩექ-ინი", "checkout": "ჩექ-აუთი", "form_title": "მოთხოვნა", "form_name": "სახელი", "form_dates": "თარიღები", "form_guests": "სტუმრები", "form_msg": "შეტყობინება", "form_send": "გაგზავნა", "footer": "© PROZA — ყველა უფლება დაცულია."}, "en": {"nav_rooms": "Rooms", "nav_rest": "Restaurant", "nav_terrace": "Terrace", "nav_gallery": "Gallery", "nav_location": "Location", "nav_contact": "Contact", "tagline": "Boutique hotel in Kutaisi", "cta_contact": "Contact", "cta_request": "Booking request", "high1": "Modern boutique interior", "high2": "18 rooms • 2+1 occupancy", "high3": "Restaurant & terrace", "rooms_title": "Rooms", "room_standard": "Standard Double Room", "room_twin": "Twin or Double Room", "room_occ": "2 guests • optional extra bed", "room_price": "Price: {price} / night • Extra bed: +{extra}", "rooms_note": "Images are visual representations (renders). Final details may vary slightly.", "rest_title": "Restaurant", "rest_text": "A place for evenings, conversations, and slow time. Designed to be remembered.", "terrace_title": "Terrace", "terrace_text": "Open-air space — views, fresh air, and a calm atmosphere.", "gallery_title": "Gallery", "gallery_rooms": "Rooms", "gallery_baths": "Bathroom", "gallery_rest": "Restaurant", "gallery_terrace": "Terrace", "location_title": "Location", "location_text": "Kutaisi, Georgia. Easy to reach and close to the city.", "maps_btn": "Open in Google Maps", "contact_title": "Contact", "phone": "Phone / WhatsApp", "email": "Email", "checkin": "Check-in", "checkout": "Check-out", "form_title": "Request", "form_name": "Name", "form_dates": "Dates", "form_guests": "Guests", "form_msg": "Message", "form_send": "Send", "footer": "© PROZA — All rights reserved."}, "ru": {"nav_rooms": "Номера", "nav_rest": "Ресторан", "nav_terrace": "Терраса", "nav_gallery": "Галерея", "nav_location": "Локация", "nav_contact": "Контакты", "tagline": "Бутик‑отель в Кутаиси", "cta_contact": "Связаться", "cta_request": "Запрос брони", "high1": "Современный бутик‑интерьер", "high2": "18 номеров • размещение 2+1", "high3": "Ресторан и терраса", "rooms_title": "Номера", "room_standard": "Standard Double Room", "room_twin": "Twin or Double Room", "room_occ": "2 гостя • дополнительная кровать по запросу", "room_price": "Цена: {price} / ночь • Доп. кровать: +{extra}", "rooms_note": "Изображения — визуальные рендеры. Итоговые детали могут немного отличаться.", "rest_title": "Ресторан", "rest_text": "Место для вечеров, разговоров и спокойного темпа. Дизайн, который запоминается.", "terrace_title": "Терраса", "terrace_text": "Под открытым небом — виды, воздух и спокойная атмосфера.", "gallery_title": "Галерея", "gallery_rooms": "Номера", "gallery_baths": "Санузел", "gallery_rest": "Ресторан", "gallery_terrace": "Терраса", "location_title": "Локация", "location_text": "Кутаиси, Грузия. Удобно добраться и близко к городу.", "maps_btn": "Открыть в Google Maps", "contact_title": "Контакты", "phone": "Телефон / WhatsApp", "email": "Почта", "checkin": "Заезд", "checkout": "Выезд", "form_title": "Запрос", "form_name": "Имя", "form_dates": "Даты", "form_guests": "Гости", "form_msg": "Сообщение", "form_send": "Отправить", "footer": "© PROZA — Все права защищены."}};
+    window.CONTACT = { phone: "+995591159933", email: "info@hotelproza.ge" };
+    window.PRICES = { base: "220₾", extra: "50₾" };
+  </script>
+  <script>
+    // placeholder i18n
+    function applyPlaceholders(lang){
+      const dict = window.TRANSLATIONS[lang] || window.TRANSLATIONS.ka;
+      document.querySelectorAll('[data-placeholder-i18n]').forEach(el=>{
+        const key = el.getAttribute('data-placeholder-i18n');
+        el.setAttribute('placeholder', dict[key] || key);
+      });
+    }
+    window.addEventListener('DOMContentLoaded', ()=>{
+      const lang = localStorage.getItem('proza_lang') || 'ka';
+      applyPlaceholders(lang);
+      document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click', ()=>applyPlaceholders(b.dataset.lang)));
+    });
+  </script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
